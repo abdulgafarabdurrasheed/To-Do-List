@@ -94,6 +94,10 @@
       color: #999;
       font-size: large;
     }
+    .m:hover{
+        color: white;
+        cursor: pointer;
+    }
     </style>
 </head>
 <body>
@@ -116,7 +120,7 @@
             <div id="view" class="hidden">
               <div class="container empty-state">
                 <p>Nothing to show here <br>
-                Add a task</p>
+                <span onclick="toggletoadd()" class="m">Add a task</span></p>
               </div>
             </div>
         </form>
@@ -178,3 +182,4 @@
     </script>
 </body>
 </html>
+
